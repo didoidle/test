@@ -1,10 +1,6 @@
 import numpy as np
 
-def EM_step(B, mu, Maximization_step):
-
-    C=9
-    D=14
-    h = 30
+def EM_step(B, C, D, h, mu, Maximization_step):
 
     #A = (0.5 * h)/(0.5 + mu)
     B = (mu*h)/(0.5 + mu)
